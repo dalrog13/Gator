@@ -1,0 +1,66 @@
+.postBox {
+    padding-bottom: 10px;
+    border-bottom: 8px solid white;
+    padding-right: 10px;
+    
+}
+
+.postBox > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.postBox__input {
+    padding: 20px;
+    display: flex;
+    
+}
+
+.postBox__input > input {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+
+}
+
+.postBox__imageInput {
+    border: none;
+    padding: 20px; 
+    
+}
+
+.postBox__postButton{
+    background-color: var(--gator-color) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    width: 150px;
+    height: 40px !important;
+    margin-top: 20px !important;
+    margin-left: -10px !important;
+    
+}
+
+.postBox__postButton{
+    
+    right: -200px;
+    top: -5px;
+
+}
+
+.postBorder{
+    border-bottom: 8px solid var(--gator-background);
+}
+input:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+textarea:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
